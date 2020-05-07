@@ -1,0 +1,134 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 50px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  z-index: 1;
+}
+
+.folio-logo {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.folio-img {
+  width: 100px;
+  height: 30px;
+  /* margin: auto; */
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.search {
+  margin: auto;
+}
+
+.navbar input[type="text"] {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.navbar .search button {
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.navbar .search button:hover {
+  background: #ccc;
+}
+
+.search-icon {
+  height: 21px;
+  width: 21px;
+  padding-top: 5px;
+}
+
+.button-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+li {
+  float: left;
+}
+
+.page-group {
+  width: auto;
+  padding: 0;
+  display: flex;
+  margin-top: 15px;
+  justify-content: right;
+  float: right;
+}
+
+.page-button {
+  text-align: center;
+}
+
+.new-post-button {
+  padding: 0;
+  text-align: center;
+}
+
+.new-post {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.new-post:hover {
+  background-color: #9fcae0;
+  color: #000000;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .search-bar {
+    display: none;
+  }
+  .new-post {
+    display: none;
+  }
+}
+
+/* devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+  .search-bar {
+    display: none;
+  }
+  .new-post {
+    margin-top: 3px;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}

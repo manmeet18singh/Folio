@@ -1,0 +1,257 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-header {
+  width: 30%;
+  height: 40px;
+  border: #dbdbdb 1px solid;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: -40px;
+  left: -1px;
+  /* border: 1px solid red; */
+}
+
+.ex-card-header {
+  width: 50%;
+  height: 40px;
+  border: #dbdbdb 1px solid;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: -40px;
+  left: -1px;
+}
+
+/* .postbody {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+.comment-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comment-indicator {
+  text-align: right;
+  width: 100%;
+  display: block;
+  float: right;
+  margin-top: 10px;
+}
+
+.comment-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.comment-indicator-text {
+  background-color: lightblue;
+  color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  padding: 5px;
+  float: right;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.card-tab {
+  width: 40%;
+}
+
+.card {
+  width: 100%;
+  margin: 20px auto;
+  margin-top: 60px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0 6px 6px 6px;
+  border: #dbdbdb 1px solid;
+}
+
+.ex-username {
+  font-size: small;
+  width: 100%;
+  padding: 10px;
+}
+
+.username {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.my-username {
+  padding: 10px;
+  width: 100%;
+}
+
+.title {
+  padding-left: 10px;
+  border-top: #dbdbdb 1px solid;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.title > h4 {
+  margin: 10px 0;
+}
+
+.caption {
+  width: 100%;
+  padding: 0px 10px;
+
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.caption > p {
+  margin: 10px 0;
+}
+
+.collab > p {
+  margin: 10px 0;
+}
+
+.collab {
+  padding: 0px 10px;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.no-display {
+  display: none;
+}
+
+.interact-group {
+  width: 100%;
+  margin: 10px 0;
+  overflow: auto;
+}
+
+.interact-group .interact-button {
+  float: left;
+}
+
+.interact-button-edit-del > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  float: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tag {
+  padding-left: 10px;
+}
+
+.post-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.button-icon {
+  height: 20px;
+  width: 20px;
+}
+.interact-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mod-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.modal-buttons {
+  padding: none;
+  display: inline-flex;
+  width: 100%;
+}
+
+.button1-container {
+  margin: 5px auto;
+}
+
+.button1 {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 0px 50px;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #dbdbdb;
+}
+
+.button2-container {
+  margin: 5px auto;
+  border-left: 2px solid #e9ecef;
+}
+
+.button2 {
+  background-color: white;
+  border: none;
+  color: #da2c38;
+  padding: 0px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2:hover {
+  color: black;
+  background-color: #e37980;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .kabab {
+    display: none;
+  }
+}
+
+/* devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+  .trash {
+    display: none;
+  }
+  .pencil {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .trash {
+    display: none;
+  }
+  .pencil {
+    display: none;
+  }
+}

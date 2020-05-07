@@ -1,0 +1,156 @@
+h1 > .h1-sg {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+p > .p-sg {
+  font-family: "Roboto", sans-serif;
+  padding-right: 20px;
+}
+.Colors {
+  list-style-type: none;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+button {
+  border: none;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  display: flex;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+li {
+  align-self: center;
+  align-items: center;
+}
+.Blue {
+  background-color: #3399cc;
+}
+.Blue:hover {
+  background-color: #9fcae0;
+}
+.BAY {
+  margin-bottom: -16px;
+}
+.East-Bay {
+  background-color: #4c518c;
+  /* margin-bottom: -18px; */
+}
+.East-Bay:hover {
+  background-color: #989ab6;
+}
+.Yellow-li {
+  margin-bottom: 2px;
+}
+.Yellow {
+  background-color: #eca400;
+}
+.Yellow:hover {
+  background-color: #f4d693;
+}
+.Crimson {
+  background-color: #da2c38;
+}
+.Crimson:hover {
+  background-color: #e37980;
+}
+.Black {
+  background-color: #000000;
+}
+.Black-li {
+  margin-bottom: 35px;
+}
+.Grey {
+  background-color: #dbdbdb;
+}
+.Grey-li {
+  margin-bottom: 35px;
+}
+.Ala {
+  background-color: #fafafa;
+}
+.ala-li {
+  margin-bottom: 35px;
+}
+.White {
+  background-color: #ffffff;
+}
+.white-li {
+  margin-bottom: 35px;
+}
+
+.fonts {
+  line-break: initial;
+}
+.color-names {
+  max-width: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  word-break: unset;
+  padding-right: 15px;
+}
+.color-names-East-Bay {
+  margin-left: -35px;
+}
+.Example-Button {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.Example-Button:hover {
+  background-color: #8abdd6;
+  color: #000000;
+}
+.css-section {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+.header-slab {
+  padding-left: 50px;
+  display: inline-flex;
+  font-family: "Roboto Slab", sans-serif;
+}
+.RoBoSlabEx {
+  padding-left: 75px;
+  font-family: "Roboto Slab", sans-serif;
+}
+.robo {
+  padding-left: 75px;
+  font-family: "Roboto", sans-serif;
+}
+
+.layout {
+  /* max-width: 300px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.layout-image {
+  display: block;
+  flex: none;
+}
+u {
+  color: red;
+  border-color: red;
+}
+.Error-image {
+  display: block;
+  flex: none;
+  width: 300px;
+}

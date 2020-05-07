@@ -1,0 +1,40 @@
+.logo {
+  width: 70%;
+  height: 70%;
+}
+
+.welcome {
+  padding: 15px;
+  /* text-align: center; */
+}
+
+/* Style the tab */
+.firsttime-tab {
+  float: left;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  width: 25%;
+  height: 70vh;
+  border-radius: 5px;
+  margin: auto -15px;
+}
+
+/* Style the buttons inside the firsttime-tab */
+.firsttime-tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 16px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.firsttime-tab button:hover {
+  background-color: #ddd;
+}

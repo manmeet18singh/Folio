@@ -1,0 +1,314 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .side-bar {
+    background-color: #4c518c;
+    position: fixed;
+    margin: -15px;
+    width: 25%;
+    height: 105vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 30px 0;
+  }
+  .edit-profile {
+    /* width: 19%; */
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+
+  .edit-img {
+    float: right;
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+  }
+
+  .profile-pic-container {
+    /* display: block; */
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .profile-pic {
+    display: inline;
+    margin: 0 auto;
+    /* margin-left: -25%; */
+    height: 100%;
+    width: auto;
+  }
+
+  .user-info {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+    white-space: pre-line;
+  }
+
+  a {
+    color: #ffffff;
+  }
+  .display-name {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .display-flname {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .user-bio {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .crowdfund-link {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .freelance-link {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin: 10px;
+  }
+  .logout-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+
+  .logout-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+
+  .follow-container {
+    padding-top: 10px;
+  }
+
+  .followinglist-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .followinglist-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+
+  .followerlist-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .followerlist-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+}
+
+/* devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+  .sidebar-container {
+    margin: -5px;
+  }
+  .side-bar {
+    background-color: #4c518c;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .edit-profile {
+    display: none;
+  }
+
+  .edit-img {
+    margin: 10px;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    float: right;
+    padding: none;
+    margin: 15px;
+  }
+
+  .profile-pic-container {
+    margin: auto 20px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .profile-pic {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+  }
+
+  .user-info {
+    padding: 20px;
+    color: #ffffff;
+  }
+
+  .display-name {
+    padding-top: 10px;
+    font-size: x-large;
+  }
+
+  .user-bio {
+    text-align: left;
+    /* padding: 15px; */
+  }
+
+  .crowdfund-link {
+    text-align: left;
+    /* padding: 15px; */
+  }
+
+  .button-container {
+    width: fit-content;
+    margin: 20px;
+    text-align: right;
+  }
+  .logout-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+  }
+
+  .logout-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+
+  .interact-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    display: inline;
+    /* margin: 20px; */
+
+    /* align-content: center; */
+  }
+
+  .button-container {
+    text-align: center;
+    margin: 10px;
+  }
+  .logout-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px auto;
+  }
+
+  .logout-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+
+  .follow-container {
+    padding-top: 10px;
+  }
+
+  .followinglist-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin: 0 20px; */
+  }
+
+  .followinglist-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+
+  .followerlist-button {
+    background-color: #eca400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+  a {
+    color: #ffffff;
+  }
+  .followerlist-button:hover {
+    background-color: #f4d693;
+    color: #000000;
+  }
+}

@@ -1,0 +1,17 @@
+.comment-header {
+  font-size: 160%;
+}
+
+.comment-timestamp {
+  text-align: right;
+  color: grey;
+}
+.comment-container {
+  background-color: #dbdbdb;
+  min-width: 380px;
+}
+/* .comment-text-container {
+  max-width: 100%;
+  border: solid 2px black;
+  opacity: 50%;
+} */

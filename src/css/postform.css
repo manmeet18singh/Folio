@@ -1,0 +1,87 @@
+.data-input > input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.data-input > input.error,
+select.error {
+  border-color: #da2c38;
+}
+
+textarea.error {
+  border-color: #da2c38;
+}
+
+.error-message {
+  padding-left: 10px;
+  color: #da2c38;
+  font-size: 15px;
+}
+
+.tag-img {
+  width: 20px;
+  height: 20px;
+}
+
+.data-label {
+  justify-content: start;
+  margin: 5px 0;
+}
+
+.upload {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.button {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.post-button {
+  background-color: #3399cc;
+  color: #ffffff;
+}
+
+.post-button:hover {
+  background-color: #9fcae0;
+  color: #000000;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

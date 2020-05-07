@@ -1,0 +1,28 @@
+﻿Team: ATAM
+Manmeet Singh                                                                   manmeets@buffalo.edu
+Tyler Anatole                                                                          tylerana@buffalo.edu
+Andrew Peters                                                                              apeters9@buffalo.edu
+Anthony Hom                                                                           ahom2@buffalo.edu
+Tanisha Debasish                                                                 tanishad@buffalo.edu 
+
+
+GitHub: https://github.com/CSE410HCI/atam-web
+ZenHub:https://app.zenhub.com/workspaces/atam-web-5e3b06fcc1674503c661d8d8/board?repos=237307471  
+
+
+Dispute Resolution Approach: 
+
+
+Whoever holds their breath the longest wins, toss a coin, etc.
+
+
+Folio Completed:
+Folio is a new social media service meant for young creatives looking to start their portfolios. Our users called Creatives can sign up and start following other Creatives. Creatives can also upload project descriptions, pictures and relevant links concerning their projects. A completed Folio application will have the ability of “peer to peer evaluation” where validated Creatives aka professionals can recommend or give feedback on the page which the Creatives can then display on their Folio. A Folio application will also have categorized projects which allow users to “explore” other Folios to get inspiration from or to collaborate with. The application will also have direct messaging between approved Creatives. 
+
+
+
+
+Folio’s Users:
+
+
+Folio is a new social media service for people within the age range of 15 to 30. We are specifically catering to young creatives looking to create their portfolio of different mediums. Our users, dubbed as Creatives, can show their music production, code, paintings, writings, etc. Instead of creating a website on their own, Creatives can use our social media application to start their portfolio and share them with the world. Creatives can find other like-minded Creatives and easily link up by giving them the possibility of collaboration.

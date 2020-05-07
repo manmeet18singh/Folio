@@ -1,0 +1,76 @@
+.horizontal-scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.pfm-card {
+  display: inline-block;
+  width: 60%;
+  margin: 10px;
+
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: #dbdbdb 1px solid;
+}
+
+.pfm-card-body {
+  white-space: pre-line;
+}
+
+.pfm-title {
+  padding-left: 10px;
+  border-top: #dbdbdb 1px solid;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.pfm-title > h4 {
+  margin: 10px 0;
+}
+
+.pfm-caption {
+  width: 100%;
+  padding: 0px 10px;
+
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.pfm-caption > p {
+  margin: 10px 0;
+}
+
+.pfm-collab > p {
+  margin: 10px 0;
+}
+
+.pfm-collab {
+  padding: 0px 10px;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.no-display {
+  display: none;
+}
+
+.pfm-img-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  /* margin: 10px; */
+  position: relative;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.pfm-post-img {
+  position: absolute;
+  left: -1000%;
+  right: -1000%;
+  top: -1000%;
+  bottom: -1000%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+
+  object-fit: contain;
+  /* border-radius: 0px 6px 1px 0px; */
+}

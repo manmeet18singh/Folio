@@ -1,0 +1,51 @@
+.notifblock {
+  color: black;
+  padding: 5px;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.notif {
+  /* display: block; */
+  align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: -80px;
+  width: 64px;
+  height: 64px;
+  /* position: relative; */
+  /* overflow: hidden; */
+  border: grey 1px solid;
+  border-radius: 100%;
+  scale: auto;
+}
+.pro-pic {
+  overflow: hidden;
+  max-width: auto;
+  max-height: 100%;
+}
+.notification-section {
+  padding-left: 35%;
+}

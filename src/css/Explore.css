@@ -1,0 +1,27 @@
+.tag-button {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.tag-button:hover {
+  background-color: #9fcae0;
+  color: #000000;
+}
+/* old css */
+/* .Explore-posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.Eposts {
+  max-width: 500px;
+  padding: 20px;
+} */

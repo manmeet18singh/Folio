@@ -1,0 +1,288 @@
+.signup-middle {
+  margin: -75px;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 164, 0, 1) 0%,
+    rgba(218, 44, 56, 1) 100%
+  );
+  border: 5px solid #000000;
+}
+
+.signup-card {
+  width: 80%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0 20px 20px 20px;
+  border: black 5px solid;
+}
+
+.signup-tab {
+  width: 30%;
+  height: 50px;
+  border: #000000 5px solid;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: -50px;
+  left: -5px;
+  display: block;
+  padding: 0px 15px;
+}
+.signup-tab-highlight {
+  width: 30%;
+  height: 70px;
+  border: #000000 5px solid;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: -70px;
+  left: -5px;
+  display: block;
+  padding: 0px 15px;
+}
+.signup-button {
+  width: 100%;
+  padding: 0;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.login-tab {
+  width: 30%;
+  height: 50px;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  border: #000000 5px solid;
+  background-color: white;
+  position: absolute;
+  top: -50px;
+  margin-left: 29%;
+  display: block;
+  padding: 0px 15px;
+}
+.login-tab-highlight {
+  width: 30%;
+  height: 70px;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  border: black 5px solid;
+  background-color: white;
+  position: absolute;
+  top: -70px;
+  margin-left: 29%;
+  display: block;
+  padding: 0px 15px;
+}
+.login-button {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 5px auto;
+  border-bottom: none;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+}
+
+.subtitle {
+  font-size: x-large;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.form-input {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.signup-footer {
+  border-top: 1px solid #dbdbdb;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.submit-button {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 5px 150px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 25px auto;
+}
+
+.submit-button:hover {
+  background-color: #8abdd6;
+  color: #000000;
+}
+
+.forgot-button {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 5px 150px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.otp {
+  display: flex;
+  margin: 0 auto;
+
+  width: 80%;
+  background-color: #ffffff;
+  border: #000000 5px solid;
+  border-radius: 20px;
+}
+
+.txt {
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.otp-button {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.otp-button:hover {
+  background-color: #8abdd6;
+  color: #000000;
+}
+
+.message {
+  color: #eca400;
+}
+
+.message-bad {
+  color: #da2c38;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App-left {
+    display: none;
+  }
+  .App-right {
+    display: none;
+  }
+
+  .signup-tab {
+    width: 50%;
+  }
+
+  .login-tab {
+    width: 40%;
+    margin-left: 50%;
+  }
+
+  .logo {
+    margin: 30px auto;
+  }
+
+  .subtitle {
+    margin: 10px;
+  }
+
+  .form-input {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .submit-button {
+    padding: 5px 70px;
+  }
+
+  .otp-button {
+    font-size: 10px;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .forgot-button {
+    padding: 5px 70px;
+  }
+
+  .signup-card {
+    margin: 5vh auto;
+  }
+}
+
+/* devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+  .forgot-button {
+    padding: 5px 70px;
+  }
+
+  .submit-button {
+    padding: 5px 70px;
+  }
+}

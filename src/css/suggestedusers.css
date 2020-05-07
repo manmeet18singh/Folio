@@ -1,0 +1,64 @@
+.suggested-user-card {
+  width: 100%;
+  margin: 20px auto;
+  margin-top: 60px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: #dbdbdb 1px solid;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid #dbdbdb;
+}
+
+sugg-btn-container {
+  position: relative;
+}
+
+.sugg-btn {
+  background-color: #3399cc;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin-right: 20px;
+  position: relative;
+  bottom: -75%;
+  right: 0px;
+}
+
+.sugg-btn:hover {
+  background-color: #9fcae0;
+  color: #000000;
+}
+
+.confirm-btn {
+  float: right;
+  background-color: #eca400;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
+  height: 50px;
+}
+
+.confirm-btn:hover {
+  background-color: #f4d693;
+  color: #000000;
+}
